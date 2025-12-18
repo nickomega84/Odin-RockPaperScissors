@@ -88,6 +88,6 @@ function playGame() {
   } else {
     console.log("The game has ended with a tie!");
   }
-}
 
-playGame();
+  document.querySelector("start").textContent = "Start a new game";
+}
